@@ -1,0 +1,51 @@
+<form [formGroup]="form">
+    <input type="text" id="name" name="text" formControlName="text" class="form-control"><br>
+    <button (click)="search()" class="btn btn-primary">search</button>
+
+</form>
+
+<div class="search-results" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="50"
+    (scrolled)="onScroll()" (scrolledUp)="onScrollUp()">
+
+    <div *ngIf="datasource">
+        <h4>Total Photo: {{ datasource.photos.total }}</h4>
+        <h4>page: {{ datasource.photos.page }} / pages: {{ datasource.photos.pages }} (perpage: {{
+            datasource.photos.perpage
+            }})</h4>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+
+            <button (click)="previous()" class="btn btn-primary">-</button>
+            <button (click)="next()" class="btn btn-primary">+</button>
+        </div>
+
+        <div class="card" style="width: 200px;margin: 5px;" *ngFor="let item of datasource.photos.photo">
+            <img [src]="getImageUrl(item)" (click)="open(content,item.id)" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">{{item.title }}</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Photo</h4>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="modal-body">
+
+        <div *ngIf="datasourceItem">
+            <h2>Title</h2>
+            <div [innerHTML]="datasourceItem.photo.title._content"></div>
+
+            <h2>Image</h2>
+            <img [src]="getImageUrl(datasourceItem.photo)" class="img-fluid">
+            <h2>Description</h2>
+            <div [innerHTML]="datasourceItem.photo.description._content"></div>
+        </div>
+    </div>
+
+</ng-template>
