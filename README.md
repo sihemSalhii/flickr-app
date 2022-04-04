@@ -37,15 +37,49 @@ Using Bootstrap 5 for the UI part
 
 
 
-used Flick API, account creation, search api, details.....
+## used Flick API,
 
-Add ngx Scroll library....
+flickr.photos.search
+
+(https://www.flickr.com/services/api/flickr.photos.search.html)
+
+flickr.photos.getInfo
+
+(https://www.flickr.com/services/api/explore/flickr.photos.getInfo)
+
+ ## account creation, search api, details.....
+
+Add ngx Scroll library.
+
+(https://www.npmjs.com/package/ngx-page-scroll)
 
 ## Advantage:
- angular, 
+ 
+ 
+  `Angular` : Angular is an open-source front-end framework maintained by Google. It’s a part of the rich JavaScript ecosystem used for building mobile and desktop web applications. However, when using the newest Angular versions, developers don’t work with JavaScript, they write with HTML and TypeScript –a JavaScript superset. 
 
- typescript, 
+ `typescript`:TypeScript features mistakes at arrangement time while JavaScript, at the runtime.
 
- bootstrap,
-  
- git.
+             TypeScript has better documentation for APIs which is in a state of harmony with a source code. A few organizations report a decrease in bugs when they change to TypeScript.
+            
+            TypeScript helps in code organizing.
+            
+            TypeScript runs in any program or JavaScript motor.
+ 
+
+`bootstrap`: The bootstrap is an Open Source Front-End framework, used for Web Application        development, made up of HTML, CSS and Java Scrip. 
+
+            Responsive Design ( Through bootstrap you can easily create responsive design. If your website is responsive then it adjusts itself according to the screen size in any platform or device like desktop, laptop, mobile)
+
+            Cross Browser Compatible(Bootstrap is designed in such a way that our web-page will look the same in almost all modern browsers like Firefox, Chrome, Internet Explorer, Opera )
+
+`git`:
+        Performance. Git performs very strongly and reliably when compared to other version control systems.
+        Security. Git is designed specially to maintain the integrity of source code. 
+
+        Flexibility. 
+
+        Wide acceptance. 
+        
+        Quality open source project.
+ 
