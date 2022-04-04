@@ -13,18 +13,21 @@
             datasource.photos.perpage
             }})</h4>
 
-        <div class="btn-group" role="group" aria-label="Basic example">
 
-            <button (click)="previous()" class="btn btn-primary">-</button>
-            <button (click)="next()" class="btn btn-primary">+</button>
+        
+
+       <div class="btn-group" role="group" aria-label="Basic example"> 
+            <button (click)="previous()" class="btn btn-primary btn-sm"> Previous </button>
+
+            <button (click)="next()" class="btn btn-primary btn-sm">Next </button>
         </div>
 
-        <div class="card" style="width: 200px;margin: 5px;" *ngFor="let item of datasource.photos.photo">
-            <img [src]="getImageUrl(item)" (click)="open(content,item.id)" class="card-img-top" alt="...">
+        <div class="card" style="text-align: center" *ngFor="let item of datasource.photos.photo">
+            <img [src]="getImageUrl(item)" (click)="open(content,item.id)" class="rounded mx-auto d-block" alt="...">
             <div class="card-body">
                 <p class="card-text">{{item.title }}</p>
             </div>
-        </div>
+        </div> 
 
     </div>
 

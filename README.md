@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`   
+
+
+Add :
+Using angular cli to manage a project
+Using Typescript...
+Using Bootstrap 5 for the UI part
+
+
+used Flick API, account creation, search api, details.....
+Add ngx Scroll library....
+
+Advantage: angular, typescript, bootstrap, git.
