@@ -36,12 +36,29 @@ Using Typescript...
 Using Bootstrap 5 for the UI part
 
 
+## Setting Up a Project:
+Install the Angular CLI globally:
+
+npm install -g @angular/cli
+
+
+Create workspace:
+
+ng new flickr-app
+
+
+Run the application:
+
+cd flickr-app
+
+ng serve
+
 
 ## used Flick API,
 
 flickr.photos.search
 
-(https://www.flickr.com/services/api/flickr.photos.search.html)
+  (https://www.flickr.com/services/api/flickr.photos.search.html)
 
 flickr.photos.getInfo
 
@@ -58,7 +75,7 @@ Add ngx Scroll library.
  
   `Angular` : Angular is an open-source front-end framework maintained by Google. It’s a part of the rich JavaScript ecosystem used for building mobile and desktop web applications. However, when using the newest Angular versions, developers don’t work with JavaScript, they write with HTML and TypeScript –a JavaScript superset. 
 
- `typescript`:TypeScript features mistakes at arrangement time while JavaScript, at the runtime.
+ `typescript`:TypeScript may be used to develop JavaScript applications for both client-side and server-side execution.
 
  TypeScript has better documentation for APIs which is in a state of harmony with a source code. A few organizations report a decrease in bugs when they change to TypeScript.
             
@@ -74,8 +91,7 @@ Responsive Design ( Through bootstrap you can easily create responsive design. I
 Cross Browser Compatible(Bootstrap is designed in such a way that our web-page will look the same in almost all modern browsers like Firefox, Chrome, Internet Explorer, Opera )
 
 `git`:
- Performance. Git performs very strongly and reliably when compared to other version control systems.
-Security. Git is designed specially to maintain the integrity of source code. 
+ Performance. Git performs very strongly and reliably when compared to other version control systems. Security. Git is designed specially to maintain the integrity of source code.
 
 Flexibility. 
 
