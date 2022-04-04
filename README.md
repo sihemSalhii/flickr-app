@@ -39,19 +39,19 @@ Using Bootstrap 5 for the UI part
 ## Setting Up a Project:
 Install the Angular CLI globally:
 
-npm install -g @angular/cli
+   npm install -g @angular/cli
 
 
 Create workspace:
 
-ng new flickr-app
+     ng new flickr-app
 
 
 Run the application:
 
-cd flickr-app
+    cd flickr-app
 
-ng serve
+    ng serve
 
 
 ## used Flick API,
