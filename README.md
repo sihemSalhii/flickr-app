@@ -47,12 +47,6 @@ Create workspace:
      ng new flickr-app
 
 
-Run the application:
-
-    cd flickr-app
-
-    ng serve
-
 
 ## used Flick API,
 
