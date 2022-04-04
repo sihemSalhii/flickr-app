@@ -28,13 +28,24 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `   
 
 
-Add :
+## Add :
 Using angular cli to manage a project
+
 Using Typescript...
+
 Using Bootstrap 5 for the UI part
 
 
+
 used Flick API, account creation, search api, details.....
+
 Add ngx Scroll library....
 
-Advantage: angular, typescript, bootstrap, git.
+## Advantage:
+ angular, 
+
+ typescript, 
+
+ bootstrap,
+  
+ git.
