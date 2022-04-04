@@ -39,7 +39,7 @@ Using Bootstrap 5 for the UI part
 ## Setting Up a Project:
 Install the Angular CLI globally:
 
-   npm install -g @angular/cli
+     npm install -g @angular/cli
 
 
 Create workspace:
